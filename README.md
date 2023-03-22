@@ -7,7 +7,7 @@ Display all items in a list showing task, title, description and colorCode (whic
 The app should offer a search bar that allows searching for any of the class properties (even those, that are not visible to the user directly)
 The app should offer a menu item that allows scanning for QR-Codes 
 Upon successful scan, the search query should be set to the scanned text
-In order to refresh the data, the app should offer a pull-2-refresh functionality (VERO-Digital-Solutions (2023), https://github.com/VERO-Digital-Solutions/ios-task)
+In order to refresh the data, the app should offer a pull-2-refresh functionality (VERO-Digital-Solutions (2023), https://github.com/VERO-Digital-Solutions/ios-task) 
 
 # Dependencies
 iOS13<=
