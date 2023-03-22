@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DF597BFAFF3A9A642F211E6 /* Pods_VERO_Digital_Solutions_Interview_Tahir_Kizir.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C90C391FF354D812A1D699A /* Pods_VERO_Digital_Solutions_Interview_Tahir_Kizir.framework */; };
+		EEA9A55929C8452A00EF7EB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA9A55829C8452A00EF7EB5 /* AppDelegate.swift */; };
+		EEA9A55B29C8452A00EF7EB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA9A55A29C8452A00EF7EB5 /* SceneDelegate.swift */; };
+		EEA9A55D29C8452A00EF7EB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA9A55C29C8452A00EF7EB5 /* ViewController.swift */; };
+		EEA9A56029C8452A00EF7EB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA9A55E29C8452A00EF7EB5 /* Main.storyboard */; };
+		EEA9A56329C8452A00EF7EB5 /* VERO_Digital_Solutions_Interview_Tahir_Kizir.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EEA9A56129C8452A00EF7EB5 /* VERO_Digital_Solutions_Interview_Tahir_Kizir.xcdatamodeld */; };
+		EEA9A56529C8452D00EF7EB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEA9A56429C8452D00EF7EB5 /* Assets.xcassets */; };
+		EEA9A56829C8452D00EF7EB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA9A56629C8452D00EF7EB5 /* LaunchScreen.storyboard */; };
+		EEA9A57129C8457A00EF7EB5 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA9A57029C8457A00EF7EB5 /* ItemViewController.swift */; };
+		EEA9A57329C8459000EF7EB5 /* ProfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA9A57229C8459000EF7EB5 /* ProfilViewController.swift */; };
+		EEA9A57529C845A100EF7EB5 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA9A57429C845A100EF7EB5 /* ScannerViewController.swift */; };
+		EEA9A57A29C845FB00EF7EB5 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA9A57929C845FB00EF7EB5 /* CoreData.swift */; };
+		EEA9A57C29C8461300EF7EB5 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA9A57B29C8461300EF7EB5 /* Event.swift */; };
+		EEA9A57E29C8462800EF7EB5 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA9A57D29C8462800EF7EB5 /* Item.swift */; };
+		EEA9A58029C8463A00EF7EB5 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA9A57F29C8463A00EF7EB5 /* Network.swift */; };
+		EEA9A58229C8464900EF7EB5 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA9A58129C8464900EF7EB5 /* Session.swift */; };
+		EEA9A58429C8465500EF7EB5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA9A58329C8465500EF7EB5 /* User.swift */; };
+		EEA9A58829C8468000EF7EB5 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA9A58729C8468000EF7EB5 /* ItemCell.swift */; };
+		EEA9A58A29C8469300EF7EB5 /* ItemDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA9A58929C8469300EF7EB5 /* ItemDetailCell.swift */; };
+		EEA9A58C29C846A300EF7EB5 /* ProfilCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA9A58B29C846A300EF7EB5 /* ProfilCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1155988A444D8D3B0EC54F52 /* Pods-VERO-Digital-Solutions-Interview-Tahir-Kizir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VERO-Digital-Solutions-Interview-Tahir-Kizir.debug.xcconfig"; path = "Target Support Files/Pods-VERO-Digital-Solutions-Interview-Tahir-Kizir/Pods-VERO-Digital-Solutions-Interview-Tahir-Kizir.debug.xcconfig"; sourceTree = "<group>"; };
+		7C90C391FF354D812A1D699A /* Pods_VERO_Digital_Solutions_Interview_Tahir_Kizir.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VERO_Digital_Solutions_Interview_Tahir_Kizir.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71764209FC1FF61F2109262 /* Pods-VERO-Digital-Solutions-Interview-Tahir-Kizir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VERO-Digital-Solutions-Interview-Tahir-Kizir.release.xcconfig"; path = "Target Support Files/Pods-VERO-Digital-Solutions-Interview-Tahir-Kizir/Pods-VERO-Digital-Solutions-Interview-Tahir-Kizir.release.xcconfig"; sourceTree = "<group>"; };
+		EEA9A55529C8452A00EF7EB5 /* VERO-Digital-Solutions-Interview-Tahir-Kizir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VERO-Digital-Solutions-Interview-Tahir-Kizir.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEA9A55829C8452A00EF7EB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEA9A55A29C8452A00EF7EB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EEA9A55C29C8452A00EF7EB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EEA9A55F29C8452A00EF7EB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEA9A56229C8452A00EF7EB5 /* VERO_Digital_Solutions_Interview_Tahir_Kizir.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VERO_Digital_Solutions_Interview_Tahir_Kizir.xcdatamodel; sourceTree = "<group>"; };
+		EEA9A56429C8452D00EF7EB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEA9A56729C8452D00EF7EB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEA9A56929C8452D00EF7EB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEA9A57029C8457A00EF7EB5 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		EEA9A57229C8459000EF7EB5 /* ProfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilViewController.swift; sourceTree = "<group>"; };
+		EEA9A57429C845A100EF7EB5 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		EEA9A57929C845FB00EF7EB5 /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		EEA9A57B29C8461300EF7EB5 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		EEA9A57D29C8462800EF7EB5 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		EEA9A57F29C8463A00EF7EB5 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		EEA9A58129C8464900EF7EB5 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		EEA9A58329C8465500EF7EB5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EEA9A58729C8468000EF7EB5 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		EEA9A58929C8469300EF7EB5 /* ItemDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailCell.swift; sourceTree = "<group>"; };
+		EEA9A58B29C846A300EF7EB5 /* ProfilCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEA9A55229C8452A00EF7EB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF597BFAFF3A9A642F211E6 /* Pods_VERO_Digital_Solutions_Interview_Tahir_Kizir.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D3E0021DC2260380468235C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C90C391FF354D812A1D699A /* Pods_VERO_Digital_Solutions_Interview_Tahir_Kizir.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8455DCF93CEB9003A5ECB38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1155988A444D8D3B0EC54F52 /* Pods-VERO-Digital-Solutions-Interview-Tahir-Kizir.debug.xcconfig */,
+				A71764209FC1FF61F2109262 /* Pods-VERO-Digital-Solutions-Interview-Tahir-Kizir.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EEA9A54C29C8452A00EF7EB5 = {
+			isa = PBXGroup;
+			children = (
+				EEA9A55729C8452A00EF7EB5 /* VERO-Digital-Solutions-Interview-Tahir-Kizir */,
+				EEA9A58529C8466400EF7EB5 /* View */,
+				EEA9A57829C845E400EF7EB5 /* Model */,
+				EEA9A56F29C8456000EF7EB5 /* Controller */,
+				EEA9A55629C8452A00EF7EB5 /* Products */,
+				A8455DCF93CEB9003A5ECB38 /* Pods */,
+				2D3E0021DC2260380468235C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EEA9A55629C8452A00EF7EB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEA9A55529C8452A00EF7EB5 /* VERO-Digital-Solutions-Interview-Tahir-Kizir.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEA9A55729C8452A00EF7EB5 /* VERO-Digital-Solutions-Interview-Tahir-Kizir */ = {
+			isa = PBXGroup;
+			children = (
+				EEA9A55829C8452A00EF7EB5 /* AppDelegate.swift */,
+				EEA9A55A29C8452A00EF7EB5 /* SceneDelegate.swift */,
+				EEA9A55E29C8452A00EF7EB5 /* Main.storyboard */,
+				EEA9A56629C8452D00EF7EB5 /* LaunchScreen.storyboard */,
+				EEA9A56429C8452D00EF7EB5 /* Assets.xcassets */,
+				EEA9A56929C8452D00EF7EB5 /* Info.plist */,
+				EEA9A56129C8452A00EF7EB5 /* VERO_Digital_Solutions_Interview_Tahir_Kizir.xcdatamodeld */,
+			);
+			path = "VERO-Digital-Solutions-Interview-Tahir-Kizir";
+			sourceTree = "<group>";
+		};
+		EEA9A56F29C8456000EF7EB5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EEA9A55C29C8452A00EF7EB5 /* ViewController.swift */,
+				EEA9A57029C8457A00EF7EB5 /* ItemViewController.swift */,
+				EEA9A57229C8459000EF7EB5 /* ProfilViewController.swift */,
+				EEA9A57429C845A100EF7EB5 /* ScannerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EEA9A57829C845E400EF7EB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EEA9A57929C845FB00EF7EB5 /* CoreData.swift */,
+				EEA9A57B29C8461300EF7EB5 /* Event.swift */,
+				EEA9A57D29C8462800EF7EB5 /* Item.swift */,
+				EEA9A57F29C8463A00EF7EB5 /* Network.swift */,
+				EEA9A58129C8464900EF7EB5 /* Session.swift */,
+				EEA9A58329C8465500EF7EB5 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EEA9A58529C8466400EF7EB5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEA9A58629C8466900EF7EB5 /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EEA9A58629C8466900EF7EB5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EEA9A58729C8468000EF7EB5 /* ItemCell.swift */,
+				EEA9A58929C8469300EF7EB5 /* ItemDetailCell.swift */,
+				EEA9A58B29C846A300EF7EB5 /* ProfilCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEA9A55429C8452A00EF7EB5 /* VERO-Digital-Solutions-Interview-Tahir-Kizir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEA9A56C29C8452D00EF7EB5 /* Build configuration list for PBXNativeTarget "VERO-Digital-Solutions-Interview-Tahir-Kizir" */;
+			buildPhases = (
+				2F66FF0CF5967F428A3D3989 /* [CP] Check Pods Manifest.lock */,
+				EEA9A55129C8452A00EF7EB5 /* Sources */,
+				EEA9A55229C8452A00EF7EB5 /* Frameworks */,
+				EEA9A55329C8452A00EF7EB5 /* Resources */,
+				72C576C79DA7959A21C16053 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VERO-Digital-Solutions-Interview-Tahir-Kizir";
+			productName = "VERO-Digital-Solutions-Interview-Tahir-Kizir";
+			productReference = EEA9A55529C8452A00EF7EB5 /* VERO-Digital-Solutions-Interview-Tahir-Kizir.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEA9A54D29C8452A00EF7EB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					EEA9A55429C8452A00EF7EB5 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = EEA9A55029C8452A00EF7EB5 /* Build configuration list for PBXProject "VERO-Digital-Solutions-Interview-Tahir-Kizir" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEA9A54C29C8452A00EF7EB5;
+			productRefGroup = EEA9A55629C8452A00EF7EB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEA9A55429C8452A00EF7EB5 /* VERO-Digital-Solutions-Interview-Tahir-Kizir */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEA9A55329C8452A00EF7EB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA9A56829C8452D00EF7EB5 /* LaunchScreen.storyboard in Resources */,
+				EEA9A56529C8452D00EF7EB5 /* Assets.xcassets in Resources */,
+				EEA9A56029C8452A00EF7EB5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F66FF0CF5967F428A3D3989 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VERO-Digital-Solutions-Interview-Tahir-Kizir-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72C576C79DA7959A21C16053 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VERO-Digital-Solutions-Interview-Tahir-Kizir/Pods-VERO-Digital-Solutions-Interview-Tahir-Kizir-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VERO-Digital-Solutions-Interview-Tahir-Kizir/Pods-VERO-Digital-Solutions-Interview-Tahir-Kizir-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VERO-Digital-Solutions-Interview-Tahir-Kizir/Pods-VERO-Digital-Solutions-Interview-Tahir-Kizir-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEA9A55129C8452A00EF7EB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA9A58429C8465500EF7EB5 /* User.swift in Sources */,
+				EEA9A57E29C8462800EF7EB5 /* Item.swift in Sources */,
+				EEA9A57529C845A100EF7EB5 /* ScannerViewController.swift in Sources */,
+				EEA9A57C29C8461300EF7EB5 /* Event.swift in Sources */,
+				EEA9A58829C8468000EF7EB5 /* ItemCell.swift in Sources */,
+				EEA9A57329C8459000EF7EB5 /* ProfilViewController.swift in Sources */,
+				EEA9A56329C8452A00EF7EB5 /* VERO_Digital_Solutions_Interview_Tahir_Kizir.xcdatamodeld in Sources */,
+				EEA9A58C29C846A300EF7EB5 /* ProfilCell.swift in Sources */,
+				EEA9A58A29C8469300EF7EB5 /* ItemDetailCell.swift in Sources */,
+				EEA9A58029C8463A00EF7EB5 /* Network.swift in Sources */,
+				EEA9A55D29C8452A00EF7EB5 /* ViewController.swift in Sources */,
+				EEA9A57A29C845FB00EF7EB5 /* CoreData.swift in Sources */,
+				EEA9A58229C8464900EF7EB5 /* Session.swift in Sources */,
+				EEA9A57129C8457A00EF7EB5 /* ItemViewController.swift in Sources */,
+				EEA9A55929C8452A00EF7EB5 /* AppDelegate.swift in Sources */,
+				EEA9A55B29C8452A00EF7EB5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEA9A55E29C8452A00EF7EB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEA9A55F29C8452A00EF7EB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEA9A56629C8452D00EF7EB5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEA9A56729C8452D00EF7EB5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEA9A56A29C8452D00EF7EB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEA9A56B29C8452D00EF7EB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEA9A56D29C8452D00EF7EB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1155988A444D8D3B0EC54F52 /* Pods-VERO-Digital-Solutions-Interview-Tahir-Kizir.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R4X584U56Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VERO-Digital-Solutions-Interview-Tahir-Kizir/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tahirkizir.VERO-Digital-Solutions-Interview-Tahir-Kizir";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEA9A56E29C8452D00EF7EB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A71764209FC1FF61F2109262 /* Pods-VERO-Digital-Solutions-Interview-Tahir-Kizir.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R4X584U56Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VERO-Digital-Solutions-Interview-Tahir-Kizir/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tahirkizir.VERO-Digital-Solutions-Interview-Tahir-Kizir";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEA9A55029C8452A00EF7EB5 /* Build configuration list for PBXProject "VERO-Digital-Solutions-Interview-Tahir-Kizir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEA9A56A29C8452D00EF7EB5 /* Debug */,
+				EEA9A56B29C8452D00EF7EB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEA9A56C29C8452D00EF7EB5 /* Build configuration list for PBXNativeTarget "VERO-Digital-Solutions-Interview-Tahir-Kizir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEA9A56D29C8452D00EF7EB5 /* Debug */,
+				EEA9A56E29C8452D00EF7EB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EEA9A56129C8452A00EF7EB5 /* VERO_Digital_Solutions_Interview_Tahir_Kizir.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EEA9A56229C8452A00EF7EB5 /* VERO_Digital_Solutions_Interview_Tahir_Kizir.xcdatamodel */,
+			);
+			currentVersion = EEA9A56229C8452A00EF7EB5 /* VERO_Digital_Solutions_Interview_Tahir_Kizir.xcdatamodel */;
+			path = VERO_Digital_Solutions_Interview_Tahir_Kizir.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EEA9A54D29C8452A00EF7EB5 /* Project object */;
+}

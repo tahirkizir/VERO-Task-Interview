@@ -1,0 +1,6 @@
+framework module Pods_VERO_Digital_Solutions_Interview_Tahir_Kizir {
+  umbrella header "Pods-VERO-Digital-Solutions-Interview-Tahir-Kizir-umbrella.h"
+
+  export *
+  module * { export * }
+}
