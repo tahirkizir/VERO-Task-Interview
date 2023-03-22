@@ -10,7 +10,7 @@ Upon successful scan, the search query should be set to the scanned text
 In order to refresh the data, the app should offer a pull-2-refresh functionality (VERO-Digital-Solutions (2023), https://github.com/VERO-Digital-Solutions/ios-task)
 
 # Dependencies
-iOS13>=
+iOS13<=
 
 # Authors
 @tahirkizir https://www.linkedin.com/in/tahir-kizir-82a05921a/
